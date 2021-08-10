@@ -1,0 +1,19 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "this is my first node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaki5507/Node-Study.git"
+  },
+  "author": "kaki5507",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaki5507/Node-Study/issues"
+  },
+  "homepage": "https://github.com/kaki5507/Node-Study#readme"
+}
