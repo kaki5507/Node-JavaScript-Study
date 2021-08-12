@@ -1,12 +1,8 @@
-const readline = require('readline');
+const fs = require("fs");
+fs.appendFileSync("./hello.txt","\nWelcome!");
+const data = fs.readFileSync("./hello.txt", {encoding: "utf-8"});
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+console.log(data);
 
-rl.question("What is your name", (answer)=>{
-    console.log(`Hello ${answer}`);
-
-    rl.close();
-});
+const list = fs.readdirSync(".");
+console.log(list);
